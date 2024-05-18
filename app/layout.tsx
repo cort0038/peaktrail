@@ -7,8 +7,8 @@ import Footer from "@/components/Footer"
 const inter = Inter({subsets: ["latin"]})
 
 export const metadata: Metadata = {
-	title: "Hilink",
-	description: "We help you to get lost in the wilderness to see the incorruptible beauty of nature."
+	title: "PeakTrail - Get Lost In The Wilderness",
+	description: "We help you to get lost in nature so you can see the incorruptible beauty of the world."
 }
 
 export default function RootLayout({
