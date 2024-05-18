@@ -46,6 +46,14 @@ module.exports = {
 			},
 			borderRadius: {
 				"5xl": "40px"
+			},
+			fontSize: {
+				"xs": "1.6rem",
+				"sm": "1.8rem",
+				"md": "2.2rem",
+				"lg": "3.6rem",
+				"xl": "5.6rem",
+				"2xl": "9.6rem"
 			}
 		}
 	},
