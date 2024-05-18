@@ -1,7 +1,7 @@
 // NAVIGATION
 export const NAV_LINKS = [
 	{href: "/", key: "home", label: "Home"},
-	{href: "/", key: "how_hilink_work", label: "How Hilink Work?"},
+	{href: "/", key: "how_peaktrail_work", label: "How PeakTrail Work?"},
 	{href: "/", key: "services", label: "Services"},
 	{href: "/", key: "pricing ", label: "Pricing "},
 	{href: "/", key: "contact_us", label: "Contact Us"}
@@ -24,7 +24,7 @@ export const FEATURES = [
 		icon: "/calendar.svg",
 		variant: "green",
 		description:
-			"Schedule an adventure with friends. On holidays, there are many interesting offers from Hilink. That way, there's no more discussion"
+			"Schedule an adventure with friends. On holidays, there are many interesting offers from PeakTrail. That way, there's no more discussion"
 	},
 	{
 		title: "Technology using augment reality",
@@ -46,11 +46,11 @@ export const FEATURES = [
 export const FOOTER_LINKS = [
 	{
 		title: "Learn More",
-		links: ["About Hilink", "Press Releases", "Environment", "Jobs", "Privacy Policy", "Contact Us"]
+		links: ["About PeakTrail", "Press Releases", "Environment", "Jobs", "Privacy Policy", "Contact Us"]
 	},
 	{
 		title: "Our Community",
-		links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"]
+		links: ["Climbing xixixi", "Hiking PeakTrail", "PeakTrail kinthill"]
 	}
 ]
 
@@ -58,7 +58,7 @@ export const FOOTER_CONTACT_INFO = {
 	title: "Contact Us",
 	links: [
 		{label: "Admin Officer", value: "123-456-7890"},
-		{label: "Email Officer", value: "hilink@akinthil.com"}
+		{label: "Email Officer", value: "peaktrail@akinthil.com"}
 	]
 }
 
