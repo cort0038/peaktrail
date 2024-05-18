@@ -1,4 +1,4 @@
-import {FEATURES} from "@/constants"
+import {FEATURES} from "@/app/constants"
 import Image from "next/image"
 
 const Features = () => {

@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import {NAV_LINKS} from "@/constants"
+import {NAV_LINKS} from "@/app/constants"
 import Button from "./Button"
 
 const Navbar = () => {

@@ -1,4 +1,4 @@
-import {PEOPLE_URL} from "@/constants"
+import {PEOPLE_URL} from "@/app/constants"
 import Image from "next/image"
 
 type CampProps = {
