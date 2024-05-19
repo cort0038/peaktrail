@@ -1,5 +1,6 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+import type {Config} from "tailwindcss"
+
+const config: Config = {
 	content: [
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}",
 		"./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -30,10 +31,12 @@ module.exports = {
 				}
 			},
 			backgroundImage: {
-				"bg-img-1": "url('/img-1.png')",
-				"bg-img-2": "url('/img-2.png')",
+				"bg-img-1": "url('/img-1.jpg')",
+				"bg-img-2": "url('/img-2.jpeg')",
+				"bg-img-3": "url('/img-3.webp')",
+				"bg-img-4": "url('/img-4.jpeg')",
 				"feature-bg": "url('/feature-bg.png')",
-				pattern: "url('/pattern.png')",
+				"pattern": "url('/pattern.png')",
 				"pattern-2": "url('/pattern-bg.png')"
 			},
 			screens: {
@@ -57,5 +60,8 @@ module.exports = {
 			}
 		}
 	},
-	plugins: []
+	plugins: [],
+	darkMode: "class"
 }
+
+export default config
