@@ -8,7 +8,36 @@ export const NAV_LINKS = [
 ]
 
 // CAMP SECTION
-export const PEOPLE_URL = ["/person-1.png", "/person-2.png", "/person-3.png", "/person-4.png"]
+export const CAMPS = [
+	{
+		backgroundImage: "bg-bg-img-1",
+		title: "Putuk Truno Camp",
+		subtitle: "Prigen, Pasuruan",
+		peopleJoined: "+50 Joined",
+		peopleUrls: ["/person-1.jpg", "/person-2.jpg", "/person-3.jpg", "/person-4.jpg", "/person-5.jpg"]
+	},
+	{
+		backgroundImage: "bg-bg-img-2",
+		title: "Mountain View Camp",
+		subtitle: "Somewhere in the Wilderness",
+		peopleJoined: "+75 Joined",
+		peopleUrls: ["/person-6.jpg", "/person-7.jpg", "/person-8.jpg", "/person-9.jpg", "/person-10.jpg"]
+	},
+	{
+		backgroundImage: "bg-bg-img-3",
+		title: "Ocean Breeze Camp",
+		subtitle: "By the Seashore",
+		peopleJoined: "+30 Joined",
+		peopleUrls: ["/person-11.jpg", "/person-12.jpg", "/person-13.jpg", "/person-14.jpg", "/person-15.jpg"]
+	},
+	{
+		backgroundImage: "bg-bg-img-4",
+		title: "Sunset Camp",
+		subtitle: "At the Top of the Mountain",
+		peopleJoined: "+100 Joined",
+		peopleUrls: ["/person-16.jpg", "/person-17.jpg", "/person-18.jpg", "/person-19.jpg", "/person-20.jpg"]
+	}
+]
 
 // FEATURES SECTION
 export const FEATURES = [
