@@ -1,10 +1,10 @@
 // NAVIGATION
 export const NAV_LINKS = [
 	{href: "/", key: "home", label: "Home"},
-	{href: "/", key: "how_peaktrail_work", label: "How PeakTrail Work?"},
-	{href: "/", key: "services", label: "Services"},
-	{href: "/", key: "pricing ", label: "Pricing "},
-	{href: "/", key: "contact_us", label: "Contact Us"}
+	{href: "#camps", key: "recent_camps", label: "Recent Camps"},
+	{href: "#services", key: "services", label: "Services"},
+	{href: "#about", key: "about_us ", label: "About Us "},
+	{href: "#footer", key: "contact_us", label: "Contact Us"}
 ]
 
 // CAMP SECTION
@@ -19,21 +19,21 @@ export const CAMPS = [
 	{
 		backgroundImage: "bg-bg-img-2",
 		title: "Mountain View Camp",
-		subtitle: "Somewhere in the Wilderness",
+		subtitle: "Colorado, USA",
 		peopleJoined: "+75 Joined",
 		peopleUrls: ["/person-6.jpg", "/person-7.jpg", "/person-8.jpg", "/person-9.jpg", "/person-10.jpg"]
 	},
 	{
 		backgroundImage: "bg-bg-img-3",
 		title: "Ocean Breeze Camp",
-		subtitle: "By the Seashore",
+		subtitle: "Bali, Indonesia",
 		peopleJoined: "+30 Joined",
 		peopleUrls: ["/person-11.jpg", "/person-12.jpg", "/person-13.jpg", "/person-14.jpg", "/person-15.jpg"]
 	},
 	{
 		backgroundImage: "bg-bg-img-4",
 		title: "Sunset Camp",
-		subtitle: "At the Top of the Mountain",
+		subtitle: "Vancover, Canada",
 		peopleJoined: "+100 Joined",
 		peopleUrls: ["/person-16.jpg", "/person-17.jpg", "/person-18.jpg", "/person-19.jpg", "/person-20.jpg"]
 	}
