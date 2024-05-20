@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+	font-size: 62.5%;
+	--bg: #edf6f9;
+	--brand: #5c3c97;
+	--brand-light: #b09fd1;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -9,70 +15,64 @@
 }
 
 @layer base {
+	body,
 	html {
-		@apply scroll-smooth;
+		@apply bg-[var(--bg)]
+		text-teal-900
+		text-[1.6rem]
+		scroll-smooth;
 	}
 }
 
 @layer utilities {
-	.btn_white {
-		@apply border-white bg-white px-6 py-3 text-green-50;
-	}
-	.btn_white_text {
-		@apply border-white bg-white px-6 py-3 text-gray-90;
-	}
-	.btn_green {
-		@apply border-green-50 bg-green-50 px-6 py-3 text-white;
-	}
-	.btn_dark_green {
-		@apply bg-green-90 px-6 py-3 text-white transition-all hover:bg-black;
-	}
-	.btn_dark_green_outline {
-		@apply border-gray-20 bg-green-90 px-6 py-3 text-white;
-	}
-
+	/* containers */
 	.max-container {
 		@apply mx-auto max-w-[1440px];
 	}
-
 	.padding-container {
 		@apply px-6 lg:px-20 3xl:px-0;
 	}
 
+	/* buttons */
+	.btn_blue {
+		@apply border-blue-400 bg-blue-100 px-6 py-3 text-black;
+	}
+	.btn_blue_outline {
+		@apply border-blue-400 px-6 py-3 text-black;
+	}
+
+	/* alignment */
+
 	.flexCenter {
 		@apply flex items-center justify-center;
 	}
-
 	.flexBetween {
 		@apply flex items-center justify-between;
 	}
-
 	.flexStart {
 		@apply flex items-center justify-start;
 	}
-
 	.flexEnd {
 		@apply flex items-center justify-end;
 	}
 
 	/* Hero */
 	.hero-map {
-		@apply absolute right-0 top-0 h-screen w-screen bg-pattern-2 bg-cover bg-center md:-right-28 xl:-top-60;
+		@apply absolute right-0 top-0 bg-pattern-2 bg-cover bg-center md:-right-96 xl:-top-60 h-screen w-screen scale-[.5] opacity-[0.03];
 	}
 
-	/* Camp */
-	.camp-quote {
-		@apply absolute -right-6 bottom-4 w-[140px] lg:bottom-10 xl:-right-8 xl:w-[186px] 3xl:right-0;
+	.feature-map {
+		@apply absolute right-0 top-0 bg-pattern-2 bg-cover bg-center  h-screen w-screen opacity-[0.03];
 	}
+
 
 	/* Feature */
 	.feature-phone {
-		@apply absolute top-[13%] z-10 hidden max-w-[1500px] rotate-[15deg] md:-left-16 lg:flex  3xl:left-20;
+		@apply absolute z-10 hidden rotate-[-25deg] xl:flex scale-75 -top-48;
 	}
 
-	/* Get App */
-	.get-app {
-		@apply max-container relative flex w-full  flex-col justify-between gap-32 overflow-hidden bg-green-90 bg-pattern bg-cover bg-center bg-no-repeat px-6 py-12 text-white sm:flex-row sm:gap-12 sm:py-24 lg:px-20 xl:max-h-[598px] 2xl:rounded-5xl;
+	.section-title {
+		@apply font-[900] leading-[1.1] md:text-xl text-lg text-[var(--brand)];
 	}
 }
 
