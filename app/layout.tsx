@@ -17,7 +17,7 @@ export default function RootLayout({
 	children: React.ReactNode
 }>) {
 	return (
-		<html lang="en">
+		<html lang="en" suppressHydrationWarning>
 			<body className={inter.className}>
 				<Navbar />
 				<main className="relative overflow-hidden">{children}</main>
